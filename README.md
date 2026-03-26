@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 100 Days of Data Engineering Challenge
 
 Este repositório contém a minha jornada de 100 dias focada em **Engenharia de Dados**. O objetivo é evoluir de scripts de automação Python até arquiteturas escaláveis em Cloud, Streaming e Governança.
