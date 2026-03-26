@@ -14,7 +14,7 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 
 ### 🟦 Fase 1: Fundamentos e Ingestão (Dias 01-25)
 *Foco em Python puro, APIs, Web Scraping e manipulação de arquivos.*
-- [ ] Dia 01: ETL de Câmbio (Consumo de API e salvamento em CSV)
+- [ x ] Dia 01: ETL de Câmbio (Consumo de API e salvamento em CSV)
 - [ ] Dia 02: Scraper de Notícias (Coleta de manchetes de portais financeiros)
 - [ ] Dia 03: Localizador de CEP em Massa (API de CEP + tratamento de erros)
 - [ ] Dia 04: Log Parser (Extração de erros 404/500 de arquivos .log)
