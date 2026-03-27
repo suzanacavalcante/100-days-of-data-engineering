@@ -144,4 +144,3 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 
 ---
 *“A consistência é o que transforma a média em excelência.”* 🚀
->>>>>>> c28b98052581fae9be45ce296e4f1ef01270886d
