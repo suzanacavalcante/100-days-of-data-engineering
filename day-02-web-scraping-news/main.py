@@ -12,7 +12,7 @@ def fetch_page(url: str):
     try:
         response = httpx.get(url, headers=headers)
         response.raise_for_status()
-        return response.text  # Certifique-se que está escrito 'text' (com 'e')
+        return response.text 
     except Exception as e:
         print(f"❌ Erro ao acessar o site: {e}")
         return None
@@ -22,21 +22,18 @@ def parse_news(html: str):
     soup = BeautifulSoup(html, "lxml")
     news_list = []
 
-    # Buscamos todos os links (<a>) que estão dentro de tags de título (h1, h2, h3)
-    # Isso captura as notícias principais de quase qualquer site
     tags_titulo = soup.find_all(['h1', 'h2', 'h3'])
 
     for tag in tags_titulo:
-        link_element = tag.find('a') # Procura um link dentro do título
+        link_element = tag.find('a') 
         if link_element:
             title = link_element.get_text(strip=True)
             link = link_element.get('href')
             
-            # Garantir que o link seja completo (alguns sites usam caminhos relativos)
             if link and link.startswith('/'):
                 link = f"https://www.infomoney.com.br{link}"
 
-            if title and len(title) > 10: # Filtro simples para evitar menus curtos
+            if title and len(title) > 10: 
                 news_list.append({
                     "titulo": title,
                     "url": link,
@@ -53,7 +50,6 @@ def save_news(data: list):
 
     df = pl.DataFrame(data)
     
-    # GARANTA QUE ESTA LINHA ESTEJA ASSIM:
     output_dir = "data" 
     
     os.makedirs(output_dir, exist_ok=True)
