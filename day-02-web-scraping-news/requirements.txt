@@ -1,0 +1,4 @@
+polars
+httpx
+beautifulsoup4
+lxml
