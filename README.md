@@ -15,7 +15,7 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 ### 🟦 Fase 1: Fundamentos e Ingestão (Dias 01-25)
 *Foco em Python puro, APIs, Web Scraping e manipulação de arquivos.*
 - [x] Dia 01: ETL de Câmbio (Consumo de API e salvamento em CSV)
-- [ ] Dia 02: Scraper de Notícias (Coleta de manchetes de portais financeiros)
+- [x] Dia 02: Scraper de Notícias (Coleta de manchetes de portais financeiros)
 - [ ] Dia 03: Localizador de CEP em Massa (API de CEP + tratamento de erros)
 - [ ] Dia 04: Log Parser (Extração de erros 404/500 de arquivos .log)
 - [ ] Dia 05: Validação com Pydantic (Garantindo esquemas de JSON)
@@ -137,7 +137,7 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 ## 📈 Progresso
 | Fase | Status | Progresso |
 | :--- | :---: | :--- |
-| **Fase 1: Fundamentos** | 🏗️ Em progresso | 4% (1/25) |
+| **Fase 1: Fundamentos** | 🏗️ Em progresso | 8% (2/25) |
 | **Fase 2: Orquestração** | ⏳ Aguardando | 0% |
 | **Fase 3: Big Data/Cloud** | ⏳ Aguardando | 0% |
 | **Fase 4: Avançado** | ⏳ Aguardando | 0% |
