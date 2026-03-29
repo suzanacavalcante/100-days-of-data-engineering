@@ -30,6 +30,9 @@ Extrair cotações de moedas (USD, EUR, BTC) em relação ao Real (BRL) via API,
 2. **Execute o script:**
    python main.py
 
+3. **Este deve ser o resultado**:
+<img src="img/rodando.jpg" alt="Texto Alternativo" width="500" height="300">
+
 ## 📊 Estrutura de Saída
 O pipeline gera os seguintes campos tratados:
 | Coluna | Tipo | Descrição |
@@ -41,4 +44,4 @@ O pipeline gera os seguintes campos tratados:
 
 ---
 
-Este projeto faz parte do desafio #100DaysOfDataEngineering
+Este projeto faz parte do desafio #100DaysOfDataEngineering 

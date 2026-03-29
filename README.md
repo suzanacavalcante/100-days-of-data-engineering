@@ -1,47 +1,3 @@
-<<<<<<< HEAD
-# 💱 Day 01: ETL de Cotação de Moedas (Polars Edition)
-
-O primeiro dia do desafio foca na construção de um pipeline de ingestão clássico (ETL), consumindo dados financeiros reais e aplicando transformações estruturadas.
-
-## 🎯 Objetivo
-Extrair cotações de moedas (USD, EUR, BTC) em relação ao Real (BRL) via API, tratar os tipos de dados e armazenar em formatos otimizados para análise.
-
-## 🛠️ Stack Técnica
-- **Linguagem:** Python 3.10+
-- **Ingestão:** `httpx` (Cliente HTTP moderno e assíncrono)
-- **Processamento:** `Polars` (Lightning-fast DataFrame library)
-- **Armazenamento:** `Parquet` (Colunar/Performance) e `CSV` (Interoperabilidade)
-
-## 🏗️ Arquitetura do Pipeline
-
-
-
-1.  **Extract:** Consumo da `AwesomeAPI` para obter dados em tempo real.
-2.  **Transform:** * Conversão de tipos (Strings para `Float64`).
-    * Parsing de datas (Strings para `Datetime`).
-    * Renomeação de colunas para padrão de negócio.
-3.  **Load:** Persistência em camada local (`/data`) nos formatos Parquet e CSV.
-
-## 🚀 Como Executar
-
-1. **Instale as dependências:**
-   ```bash
-   pip install -r requirements.txt
-   python main.py
-
-## 🛠️ Stack Técnica
-O pipeline gera os seguintes campos tratados:
-| Coluna | Tipo | Descrição |
-| :--- | :--- | :--- |
-| moeda | String | Código da moeda (USD, EUR, BTC) |
-| cotacao | Float64 | Valor de compra (bid) atualizado |
-| variacao_percentual | Float64 | Porcentagem de variação no dia |
-| data_consulta | Datetime | Timestamp exato da cotação |
-
----
-
-Este projeto faz parte do desafio #100DaysOfDataEngineering
-=======
 # 🚀 100 Days of Data Engineering Challenge
 
 Este repositório contém a minha jornada de 100 dias focada em **Engenharia de Dados**. O objetivo é evoluir de scripts de automação Python até arquiteturas escaláveis em Cloud, Streaming e Governança.
@@ -59,8 +15,8 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 ### 🟦 Fase 1: Fundamentos e Ingestão (Dias 01-25)
 *Foco em Python puro, APIs, Web Scraping e manipulação de arquivos.*
 - [x] Dia 01: ETL de Câmbio (Consumo de API e salvamento em CSV)
-- [ ] Dia 02: Scraper de Notícias (Coleta de manchetes de portais financeiros)
-- [ ] Dia 03: Localizador de CEP em Massa (API de CEP + tratamento de erros)
+- [x] Dia 02: Scraper de Notícias (Coleta de manchetes de portais financeiros)
+- [x] Dia 03: Localizador de CEP em Massa (API de CEP + tratamento de erros)
 - [ ] Dia 04: Log Parser (Extração de erros 404/500 de arquivos .log)
 - [ ] Dia 05: Validação com Pydantic (Garantindo esquemas de JSON)
 - [ ] Dia 06: Conversor Parquet (Transformando XML/JSON em formato colunar)
@@ -181,11 +137,10 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 ## 📈 Progresso
 | Fase | Status | Progresso |
 | :--- | :---: | :--- |
-| **Fase 1: Fundamentos** | 🏗️ Em progresso | 4% (1/25) |
+| **Fase 1: Fundamentos** | 🏗️ Em progresso | 12% (3/25) |
 | **Fase 2: Orquestração** | ⏳ Aguardando | 0% |
 | **Fase 3: Big Data/Cloud** | ⏳ Aguardando | 0% |
 | **Fase 4: Avançado** | ⏳ Aguardando | 0% |
 
 ---
 *“A consistência é o que transforma a média em excelência.”* 🚀
->>>>>>> c28b98052581fae9be45ce296e4f1ef01270886d
