@@ -1,0 +1,6 @@
+[
+    {"id": 1, "nome": "Suzana", "email": "suzana@exemplo.com", "valor_assinatura": 150.00},
+    {"id": 2, "nome": "Joao", "email": "joao-invalido", "valor_assinatura": 89.90},
+    {"id": 3, "nome": "Ana", "email": "ana@empresa.com", "valor_assinatura": -50.00},
+    {"id": 4, "nome": "Carlos", "email": "carlos@site.com", "valor_assinatura": 200.00}
+]

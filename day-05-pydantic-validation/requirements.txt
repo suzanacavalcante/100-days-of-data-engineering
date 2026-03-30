@@ -1,0 +1,4 @@
+pydantic
+email-validator
+polars
+pyarrow
