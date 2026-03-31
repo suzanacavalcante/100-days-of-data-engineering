@@ -20,7 +20,7 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 - [x] Dia 04: Log Parser (Extração de erros 404/500 de arquivos .log)
 - [x] Dia 05: Validação com Pydantic (Garantindo esquemas de JSON)
 - [x] Dia 06: Conversor Parquet (Transformando XML/JSON em formato colunar)
-- [ ] Dia 07: Monitor de Preços (Comparação de produtos entre e-commerces)
+- [x] Dia 07: Monitor de Preços (Comparação de produtos entre e-commerces)
 - [ ] Dia 08: Categorizador de Gastos (Processamento de faturas bancárias CSV)
 - [ ] Dia 09: SQLite Manager (Criação de DB local e queries de agregação)
 - [ ] Dia 10: Data Profiling Auto (Geração de relatório de nulos e outliers)
@@ -137,7 +137,7 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 ## 📈 Progresso
 | Fase | Status | Progresso |
 | :--- | :---: | :--- |
-| **Fase 1: Fundamentos** | 🏗️ Em progresso | 24% (6/25) |
+| **Fase 1: Fundamentos** | 🏗️ Em progresso | 28% (7/25) |
 | **Fase 2: Orquestração** | ⏳ Aguardando | 0% |
 | **Fase 3: Big Data/Cloud** | ⏳ Aguardando | 0% |
 | **Fase 4: Avançado** | ⏳ Aguardando | 0% |
