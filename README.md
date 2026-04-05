@@ -23,7 +23,7 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 - [x] Dia 07: Monitor de Preços (Comparação de produtos entre e-commerces)
 - [x] Dia 08: Categorizador de Gastos (Processamento de faturas bancárias CSV)
 - [x] Dia 09: SQLite Manager (Criação de DB local e queries de agregação)
-- [ ] Dia 10: Data Profiling Auto (Geração de relatório de nulos e outliers)
+- [x] Dia 10: Data Profiling Auto (Geração de relatório de nulos e outliers)
 - [ ] Dia 11: Pokedex API (Refatoração com paginação e filtros de tipo)
 - [ ] Dia 12: Email Attachment Downloader (Automação de recebimento de bases)
 - [ ] Dia 13: Deduplicador de Registros (Algoritmo de limpeza de bases grandes)
@@ -137,7 +137,7 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 ## 📈 Progresso
 | Fase | Status | Progresso |
 | :--- | :---: | :--- |
-| **Fase 1: Fundamentos** | 🏗️ Em progresso | 36% (9/25) |
+| **Fase 1: Fundamentos** | 🏗️ Em progresso | 40% (10/25) |
 | **Fase 2: Orquestração** | ⏳ Aguardando | 0% |
 | **Fase 3: Big Data/Cloud** | ⏳ Aguardando | 0% |
 | **Fase 4: Avançado** | ⏳ Aguardando | 0% |
