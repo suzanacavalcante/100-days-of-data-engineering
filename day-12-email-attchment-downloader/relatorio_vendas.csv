@@ -1,0 +1,11 @@
+ID_Pedido,Data,Produto,Categoria,Quantidade,Preco_Unitario,Total_Venda,Vendedor,Regiao
+1001,2026-03-01,Smartphone Alpha,Eletrônicos,2,2500.0,5000.0,Ana Silva,Sudeste
+1002,2026-03-01,Cadeira Gamer Pro,Móveis,1,1200.0,1200.0,Bruno Costa,Sul
+1003,2026-03-02,Fone Bluetooth Z,Acessórios,5,150.0,750.0,Carla Dias,Nordeste
+1004,2026-03-02,Monitor 27 Pol,Eletrônicos,1,1800.0,1800.0,Ana Silva,Sudeste
+1005,2026-03-03,Teclado Mecânico,Acessórios,3,350.0,1050.0,Diego Ramos,Centro-Oeste
+1006,2026-03-04,Notebook Ultra,Eletrônicos,1,4500.0,4500.0,Bruno Costa,Sul
+1007,2026-03-04,Mouse Vertical,Acessórios,10,120.0,1200.0,Carla Dias,Nordeste
+1008,2026-03-05,Mesa de Escritório,Móveis,2,850.0,1700.0,Ana Silva,Sudeste
+1009,2026-03-05,Webcam 4K,Acessórios,4,400.0,1600.0,Diego Ramos,Centro-Oeste
+1010,2026-03-06,Tablet Vision,Eletrônicos,2,2100.0,4200.0,Bruno Costa,Sul
