@@ -31,8 +31,11 @@ Nunca coloque suas credenciais diretamente no código (main.py). Usamos o arquiv
 1. Na raiz do seu projeto, crie um arquivo chamado .env (sem nome antes do ponto).
 2. Adicione as seguintes variáveis dentro dele:
 ```bash
-    EMAIL_USER=seu_email@gmail.com
-    EMAIL_PASS=suasenha de16caracteressemespaços
+    EMAIL_USER=[seu email aqui]
+    EMAIL_PASS=[sua senha aqui sem espaços]
     IMAP_SERVER=imap.gmail.com
 ```
 3. Segurança extra: Crie um arquivo .gitignore e adicione a linha .env dentro dele. Isso garante que, ao fazer o git push, suas senhas não sejam enviadas para o repositório público.
+
+## Resultado Esperado
+<img src="img/rodando.jpg" alt="Texto Alternativo" width="500" height="300">
