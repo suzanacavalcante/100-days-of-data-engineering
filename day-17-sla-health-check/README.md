@@ -44,6 +44,10 @@ python main.py
 ```
 
 ---
+## Resultado Esperado
+<img src="img/rodando.jpg" alt="Texto Alternativo" width="500" height="300">
+
+---
 
 ## 🧠 Aprendizados do Dia 17
 - Manipulação de Metadados: Uso da biblioteca os para verificar carimbos de modificação de arquivos (mtime).
