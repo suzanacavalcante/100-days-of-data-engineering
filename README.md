@@ -30,7 +30,7 @@ Este repositório contém a minha jornada de 100 dias focada em **Engenharia de 
 - [x] Dia 14: Geocodificação (Endereços -> Latitude/Longitude via API)
 - [x] Dia 15: Gerador de Dados Sintéticos (Uso da lib Faker para testes)
 - [x] Dia 16: Watchdog de Pastas (Trigger de scripts ao detectar novos arquivos)
-- [ ] Dia 17: Slack/Teams Alert Bot (Notificação de falhas em jobs Python)
+- [X] Dia 17: Monitor de Saúde de Pipeline (Health Check Local)
 - [ ] Dia 18: Backup Rotativo (Compressão e rotulagem de arquivos históricos)
 - [ ] Dia 19: Análise de Sentimento (Processamento de feedbacks de clientes)
 - [ ] Dia 20: Histórico Climático (Ingestão de dados de tempo por 24h)
