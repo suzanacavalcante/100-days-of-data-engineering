@@ -51,6 +51,13 @@ Rode o analisador:
 python main.py
 ```
 
+---
+
+## Resultado Esperado
+<img src="img/rodando.jpg" alt="Texto Alternativo" width="500" height="300">
+
+---
+
 ## 🧠 Aprendizados do Dia 19
 - Data Enrichment: Aprender a gerar novas colunas de metadados a partir de dados existentes.
 
